@@ -1,0 +1,102 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json application-name@0.0.1 No description
+6 warn package.json application-name@0.0.1 No repository field.
+7 warn package.json application-name@0.0.1 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'C:\\Users\\gfoulidis\\Desktop\\untitled1', [ 'socketio' ] ]
+10 info preinstall application-name@0.0.1
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'socketio@latest', null ]
+13 verbose cache add name=undefined spec="socketio@latest" args=["socketio@latest",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'socketio@latest',
+14 verbose parsed url   path: 'socketio@latest',
+14 verbose parsed url   href: 'socketio@latest' }
+15 verbose cache add name="socketio" spec="latest" args=["socketio","latest"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'latest',
+16 verbose parsed url   path: 'latest',
+16 verbose parsed url   href: 'latest' }
+17 verbose addNamed [ 'socketio', 'latest' ]
+18 verbose addNamed [ null, null ]
+19 silly lockFile dd34c4fa-socketio-latest socketio@latest
+20 verbose lock socketio@latest C:\Users\gfoulidis\AppData\Roaming\npm-cache\dd34c4fa-socketio-latest.lock
+21 info addNameTag [ 'socketio', 'latest' ]
+22 verbose request where is /socketio
+23 verbose request registry https://registry.npmjs.org/
+24 verbose request id bab375170aa5cf8a
+25 verbose url raw /socketio
+26 verbose url resolving [ 'https://registry.npmjs.org/', './socketio' ]
+27 verbose url resolved https://registry.npmjs.org/socketio
+28 verbose request where is https://registry.npmjs.org/socketio
+29 info trying registry request attempt 1 at 12:34:12
+30 http GET https://registry.npmjs.org/socketio
+31 http 404 https://registry.npmjs.org/socketio
+32 verbose headers { date: 'Tue, 20 Jan 2015 10:34:13 GMT',
+32 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 verbose headers   'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=0',
+32 verbose headers   'content-length': '52',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   age: '0',
+32 verbose headers   'x-served-by': 'cache-lhr6320-LHR',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1421750053.024489,VS0,VE84',
+32 verbose headers   'keep-alive': 'timeout=10, max=50',
+32 verbose headers   connection: 'Keep-Alive' }
+33 silly registry.get cb [ 404,
+33 silly registry.get   { date: 'Tue, 20 Jan 2015 10:34:13 GMT',
+33 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 silly registry.get     'content-type': 'application/json',
+33 silly registry.get     'cache-control': 'max-age=0',
+33 silly registry.get     'content-length': '52',
+33 silly registry.get     'accept-ranges': 'bytes',
+33 silly registry.get     via: '1.1 varnish',
+33 silly registry.get     age: '0',
+33 silly registry.get     'x-served-by': 'cache-lhr6320-LHR',
+33 silly registry.get     'x-cache': 'MISS',
+33 silly registry.get     'x-cache-hits': '0',
+33 silly registry.get     'x-timer': 'S1421750053.024489,VS0,VE84',
+33 silly registry.get     'keep-alive': 'timeout=10, max=50',
+33 silly registry.get     connection: 'Keep-Alive' } ]
+34 silly lockFile dd34c4fa-socketio-latest socketio@latest
+35 silly lockFile dd34c4fa-socketio-latest socketio@latest
+36 error 404 404 Not Found: socketio
+36 error 404
+36 error 404 'socketio' is not in the npm registry.
+36 error 404 You should bug the author to publish it
+36 error 404 It was specified as a dependency of 'application-name'
+36 error 404
+36 error 404 Note that you can also install from a
+36 error 404 tarball, folder, or http url, or git url.
+37 error System Windows_NT 6.1.7601
+38 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+39 error cwd C:\Users\gfoulidis\Desktop\untitled1
+40 error node -v v0.10.32
+41 error npm -v 1.4.28
+42 error code E404
+43 verbose exit [ 1, true ]

@@ -1,0 +1,66 @@
+.chat {
+    width: 600px;
+    height: 600px;
+    background: #5890AD;
+    float: left;
+}
+
+.user {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+.me {
+    color: red;
+}
+
+.msg {
+    color: #000000;
+    font-style: italic;
+}
+
+.message {
+    display: block;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+body {
+    background: #ffe87c;
+}
+
+.btn {
+    margin-top: 10px;
+    background: tomato;
+    display: inline-block;
+    padding: 2px 4px;
+    color:white;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #cc0000;
+    cursor: pointer;
+}
+
+.btn-ok {
+    background-color: forestgreen;
+}
+
+.info-box {
+    background: #008800;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 30px;
+}
+
+.control-buttons {
+    display: inline;
+}
